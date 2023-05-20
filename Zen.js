@@ -61,7 +61,7 @@ db.mentors.find({mentee_count:{$gt:15}})
 // 14.Find the number of users who are absent and task is not submitted  
 //between 15 oct-2020 and 31-oct-2020
 
-db.company_drives.
+db.users.
 find({$and:[
     {attendance:"absent"},
     {task:"not submitted"},
